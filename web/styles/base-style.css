@@ -1,0 +1,76 @@
+:root {
+  --pale-purple: #e0d3deff;
+  --bone: #d8d0c1ff;
+  --dun: #cbb8a9ff;
+  --sage: #b3b492ff;
+  --dim-gray: #6f686dff;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  cursor: context-menu;
+  user-select: none;
+}
+
+nav {
+  background-color: var(--pale-purple);
+  width: 200px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+}
+
+nav img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  margin-top: 140px; /* Ensures the menu is centered with space for the image */
+}
+
+nav ul li {
+  margin-bottom: 15px;
+  margin: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--dim-gray);
+  font-size: 16px;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  color: var(--sage);
+  background-color: var(--dim-gray);
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: var(--bone);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: var(--dun);
+}
