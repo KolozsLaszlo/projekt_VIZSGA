@@ -1,7 +1,7 @@
 :root {
-  --pale-purple: #e0d3deff;
-  --bone: #d8d0c1ff;
-  --dun: #cbb8a9ff;
+  --pale-purple: #D7D3BF;
+  --bone: #A59D84;
+  --dun: #2E3532;
   --sage: #b3b492ff;
   --dim-gray: #6f686dff;
 }
@@ -17,20 +17,19 @@ body {
 
 nav {
   background-color: var(--pale-purple);
-  width: 200px;
+  width: 300px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   padding-top: 20px;
-  border-right: 2px solid var(--dim-gray);
+  border-right: 3px solid var(--dim-gray);
   font-weight: 600;
 }
 
 nav img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
   position: absolute;
   top: 0;
 }
@@ -49,7 +48,7 @@ nav ul {
 
 nav ul li {
   margin-bottom: 15px;
-  margin: 20px;
+  /* margin: 20px; */
   text-align: center;
 }
 
@@ -59,7 +58,7 @@ nav ul li a {
   font-size: 16px;
   padding: 20px 40px;
   border-radius: 10px;
-  width: 100px; 
+  width: 200px; 
   display: block; 
   text-align: center; 
 }
