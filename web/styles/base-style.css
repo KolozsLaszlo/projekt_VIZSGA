@@ -48,7 +48,6 @@ nav ul {
 
 nav ul li {
   margin-bottom: 15px;
-  /* margin: 20px; */
   text-align: center;
 }
 
@@ -179,6 +178,5 @@ footer {
 
 .social-icons a img:hover {
   background-color: var(--sage); 
-
   border-radius: 50%;
 }
