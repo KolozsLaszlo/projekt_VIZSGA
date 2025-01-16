@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tápanyagtudatos</title>
     <link rel="stylesheet" href="./styles/base-style.css" />
+    <link rel="stylesheet" href="./styles/home-page-slider.css" />
+    <script src="./scripts/home-page-slider.js" defer></script>
   </head>
   <body>
     <nav>
@@ -15,13 +17,37 @@
         <li><a href="kalkulator.html">Kalkulátor</a></li>
         <li><a href="kedvencek.html">Kedvencek</a></li>
         <li><a href="fiokom.html">Fiókom</a></li>
-
       </ul>
     </nav>
     <main>
-      <h1>Üdvözlünk az Főoldalon!</h1>
-    </main>
+      <h1>Főoldal</h1>
+      <label for="slider" id="slider-info">E havi ajánlataink:</label>
+      <div class="slider">
+        <div class="slides">
+          <!-- Képre való kattintás funkció tesztelése az első képen-->
+          <div class="slide">
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="./images/slider-images/Air Fryer Honey Garlic Salmon.png" alt="Image 1" title="kep1" />
+            </a>
+          </div>
 
+          <div class="slide">
+            <img src="./images/slider-images/Egészséges Smoothie-k (1).png" alt="Image 2" title="kep2" />
+          </div>
+          <div class="slide">
+            <img src="./images/slider-images/Egészséges Táplálkozás.png" alt="Image 3" title="kep3" />
+          </div>
+          <div class="slide">
+            <img src="./images/slider-images/kep1.png" alt="Image 4" title="kep4" />
+          </div>
+          <div class="slide">
+            <img src="./images/slider-images/kep2.png" alt="Image 5" title="kep5" />
+          </div>
+        </div>
+      </div>
+
+      <!-- több kontent -->
+    </main>
 
     <footer>
       <div class="footer-container">
@@ -35,16 +61,15 @@
           <ul>
             <li><a href="rolunk.html">Rólunk</a></li>
             <li><a href="#"></a></li>
-
           </ul>
         </div>
 
         <div class="footer-section social-section">
           <h3>Kövess minket!</h3>
           <div class="social-icons">
-            <a href="#"><img src="./images/twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="./images/facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="./images/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="./images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#"><img src="./images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#"><img src="./images/instagram-icon.png" alt="Instagram" /></a>
           </div>
         </div>
       </div>

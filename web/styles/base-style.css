@@ -1,7 +1,7 @@
 :root {
-  --pale-purple: #D7D3BF;
-  --bone: #A59D84;
-  --dun: #2E3532;
+  --pale-purple: #d7d3bf;
+  --bone: #a59d84;
+  --dun: #2e3532;
   --sage: #b3b492ff;
   --dim-gray: #6f686dff;
 }
@@ -57,9 +57,9 @@ nav ul li a {
   font-size: 16px;
   padding: 20px 40px;
   border-radius: 10px;
-  width: 200px; 
-  display: block; 
-  text-align: center; 
+  width: 200px;
+  display: block;
+  text-align: center;
 }
 
 nav ul li a:hover {
@@ -94,14 +94,14 @@ h1 {
 }
 
 footer {
-  background-color: var(--pale-purple); 
-  color: var(--dun); 
+  background-color: var(--pale-purple);
+  color: var(--dun);
   border-top: 3px solid var(--dim-gray);
   text-align: center;
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   left: 0;
-  width: 100%; 
+  width: 100%;
   height: 150px;
 }
 
@@ -110,17 +110,17 @@ footer {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: flex-start;
 }
 
 .footer-section {
-  flex: 1 1 200px; 
+  flex: 1 1 200px;
   margin: 10px;
 }
 
 .logo-section img {
-  max-width: 100px; 
+  max-width: 100px;
   margin-bottom: 10px;
 }
 
@@ -152,7 +152,7 @@ footer {
 }
 
 .links-section ul li a:hover {
-  color: var(--sage); 
+  color: var(--sage);
 }
 
 .social-section h3 {
@@ -164,11 +164,11 @@ footer {
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 10px; 
+  gap: 10px;
 }
 
 .social-icons a img {
-  width: 40px; 
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: var(--dim-gray);
@@ -177,6 +177,6 @@ footer {
 }
 
 .social-icons a img:hover {
-  background-color: var(--sage); 
+  background-color: var(--sage);
   border-radius: 50%;
 }
