@@ -47,3 +47,7 @@ Fájlok részleges átrendszerezése a könyebb munka végett.
 ## Readme correct style using
 
 Readme fájl tényleges rendberakása miután utánna olvastunk, hogyan kell használni.
+
+## Calculator added
+
+Kalkulátor hozzáadva a weboldalhoz.

@@ -13,6 +13,6 @@ function showNextSlide() {
   updateSlidePosition();
 }
 
-setInterval(showNextSlide, 3000);
+setInterval(showNextSlide, 5000);
 
 updateSlidePosition();
