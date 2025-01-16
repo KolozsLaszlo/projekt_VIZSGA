@@ -68,12 +68,13 @@ nav ul li a:hover {
 }
 
 nav ul li a:active {
-  background-color: rgb(97, 91, 100);
+  background-color: rgb(64, 62, 65);
 }
 
 main {
   flex-grow: 1;
   padding: 20px;
+  padding-left: 100px;
   background-color: var(--bone);
 }
 
