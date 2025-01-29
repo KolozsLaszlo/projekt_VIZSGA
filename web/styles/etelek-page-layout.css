@@ -1,0 +1,86 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  padding-left: 0;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #30d5c8;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  background-color: var(--bone);
+  height: 270px;
+}
+
+a {
+  text-decoration: none;
+  color: #30d5c8;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+  background-color: var(--bone);
+  height: 270px;
+  cursor: pointer;
+  filter: grayscale(20%);
+  transition: 0.3s ease;
+}
+
+.div1:not(:hover),
+.div2:not(:hover),
+.div3:not(:hover),
+.div4:not(:hover),
+.div5:not(:hover),
+.div6:not(:hover) {
+  transition: 0.4s ease;
+}
+
+.div1 {
+  background-image: url("/web/images/grid-images/eloetel.png");
+}
+
+.div2 {
+  background-image: url("/web/images/grid-images/foetel.png");
+}
+
+.div3 {
+  background-image: url("/web/images/grid-images/leves.png");
+}
+
+.div4 {
+  background-image: url("/web/images/grid-images/desszert.png");
+}
+
+.div5 {
+  background-image: url("/web/images/grid-images/unnepietel.png");
+}
+
+.div6 {
+  background-image: url("/web/images/grid-images/bogracs.png");
+}

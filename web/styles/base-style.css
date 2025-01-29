@@ -73,9 +73,9 @@ nav ul li a:active {
 
 main {
   flex-grow: 1;
-  padding: 20px;
   padding-left: 100px;
   background-color: var(--bone);
+  height: 800px;
 }
 
 h1 {

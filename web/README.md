@@ -51,3 +51,8 @@ Readme fájl tényleges rendberakása miután utánna olvastunk, hogyan kell has
 ## Calculator added
 
 Kalkulátor hozzáadva a weboldalhoz.
+
+## Ételek side page created
+
+Ételek html megvasítása(grid), kidizájnolása.
+food-library létrehozása.
