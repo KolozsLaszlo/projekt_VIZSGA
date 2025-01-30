@@ -56,3 +56,8 @@ Kalkulátor hozzáadva a weboldalhoz.
 
 Ételek html megvasítása(grid), kidizájnolása.
 food-library létrehozása.
+
+## Előételek style created
+
+Az előételek aloldal alap stílusának létrehozása.
+food-library.js, food-card-styles.css létrehozva.

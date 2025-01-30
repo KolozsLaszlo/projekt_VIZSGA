@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tápanyagtudatos</title>
     <link rel="stylesheet" href="/web/styles/base-style.css" />
-    <link rel="stylesheet" href="./styles//etelek-page-layout.css" />
+    <link rel="stylesheet" href="/web/styles/food-card-styles.css" />
+    <script src="/web/scripts/food-library.js" defer></script>
   </head>
   <body>
     <nav>
@@ -19,8 +20,33 @@
       </ul>
     </nav>
     <main>
-      <h1>előételek oldal</h1>
-      <h2>teszt</h2>
+      <h1>Előételek</h1>
+      <div class="card-container">
+        <figure class="popup-trigger" data-id="popup1">
+          <img src="/web/images/food-library-images/eloetelek/leveles_tesztaba_gonygyolt_virsli.png" alt="leveles tésztaba gönygyölt virsli" />
+          <figcaption>Leveles tésztába göngyolt virsli</figcaption>
+        </figure>
+      </div>
+
+      <!-- Recept tartalom -->
+      <div class="popup" id="popup1">
+        <div class="popup-content">
+          <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+          <h1>Leveles tésztába gönygölt virsli</h1>
+          <img src="/web/images/food-library-images/eloetelek/leveles_tesztaba_gonygyolt_virsli.png" alt="leveles tésztaba gönygyölt virsli" />
+          <ol>
+            <li>A leveles tésztát szobahőmérsékleten kiengedjük, majd kb. 0,5 cm vékonyságúra nyújtjuk.</li>
+            <li>A tésztát felszeleteljük 3 cm-es csíkokra, és a három részre vágott virsliket begöngyöljük vele.</li>
+            <li>Egymás mellé tepsibe rakjuk, úgy, hogy ne érjenek össze. Tetejüket megkenjük tojással, majd megszórjuk reszelt sajttal és/vagy szezámmaggal.</li>
+            <li>A 200 fokra előmelegített sütőben 15-20 perc alatt szép pirosra sütjük.</li>
+          </ol>
+          <ul class="info-list">
+            <li>Preparation time: 30 minutes</li>
+            <li>Difficulty: Easy</li>
+            <li>Serving: 4 people</li>
+          </ul>
+        </div>
+      </div>
     </main>
 
     <footer>
